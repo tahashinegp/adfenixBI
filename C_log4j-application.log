@@ -1,0 +1,450 @@
+2018-02-18 22:18:45 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-02-18 22:18:45 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-02-18 22:18:45 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:14583][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-02-18 22:18:45 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:14583][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-02-18 22:18:45 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:14583
+2018-02-18 22:18:45 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:14583
+2018-02-18 22:18:45 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:46488<->127.0.0.1:14583
+2018-02-18 22:18:45 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-02-18 22:18:45 DEBUG MainClientExec:256 - Executing request POST /session HTTP/1.1
+2018-02-18 22:18:45 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-02-18 22:18:45 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-02-18 22:18:45 DEBUG headers:133 - http-outgoing-0 >> POST /session HTTP/1.1
+2018-02-18 22:18:45 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-02-18 22:18:45 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 688
+2018-02-18 22:18:45 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:14583
+2018-02-18 22:18:45 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-02-18 22:18:45 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-02-18 22:18:45 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 688[\r][\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:14583[\r][\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "    "chromeOptions": {[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "      "args": [[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "        "--disable-extensions",[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "        "disable-infobars"[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "      ],[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "      "extensions": [][\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "    "version": "",[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "    "platform": "ANY"[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "  },[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "      "chromeOptions": {[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "        "args": [[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "          "--disable-extensions",[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "          "disable-infobars"[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "        ],[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "        "extensions": [][\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "      },[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "      "version": "",[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "      "platform": "ANY"[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "      {[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "      }[\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2018-02-18 22:18:45 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2018-02-18 22:18:45 DEBUG wire:87 - http-outgoing-0 >> "}"
+2018-02-18 22:19:29 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-02-18 22:19:29 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-02-18 22:19:29 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:27241][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-02-18 22:19:29 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:27241][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-02-18 22:19:29 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:27241
+2018-02-18 22:19:29 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:27241
+2018-02-18 22:19:29 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:48234<->127.0.0.1:27241
+2018-02-18 22:19:29 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-02-18 22:19:29 DEBUG MainClientExec:256 - Executing request POST /session HTTP/1.1
+2018-02-18 22:19:29 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-02-18 22:19:29 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-02-18 22:19:29 DEBUG headers:133 - http-outgoing-0 >> POST /session HTTP/1.1
+2018-02-18 22:19:29 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-02-18 22:19:29 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 688
+2018-02-18 22:19:29 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:27241
+2018-02-18 22:19:29 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-02-18 22:19:29 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-02-18 22:19:29 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 688[\r][\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:27241[\r][\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "    "chromeOptions": {[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "      "args": [[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "        "--disable-extensions",[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "        "disable-infobars"[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "      ],[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "      "extensions": [][\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "    "version": "",[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "    "platform": "ANY"[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "  },[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "      "chromeOptions": {[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "        "args": [[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "          "--disable-extensions",[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "          "disable-infobars"[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "        ],[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "        "extensions": [][\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "      },[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "      "version": "",[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "      "platform": "ANY"[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "      {[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "      }[\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2018-02-18 22:19:29 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2018-02-18 22:19:29 DEBUG wire:87 - http-outgoing-0 >> "}"
+2018-02-18 22:19:46 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-02-18 22:19:46 DEBUG wire:73 - http-outgoing-0 << "Content-Length:228[\r][\n]"
+2018-02-18 22:19:46 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-02-18 22:19:46 DEBUG wire:73 - http-outgoing-0 << "Connection:close[\r][\n]"
+2018-02-18 22:19:46 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-02-18 22:19:46 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"935c352c708fe5bf6fcd52288466c1ae","status":13,"value":{"message":"unknown error: Chrome failed to start: exited abnormally\n  (Driver info: chromedriver=2.10.267518,platform=Linux 4.14.18-300.fc27.x86_64 x86_64)"}}"
+2018-02-18 22:19:46 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-02-18 22:19:46 DEBUG headers:125 - http-outgoing-0 << Content-Length:228
+2018-02-18 22:19:46 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-02-18 22:19:46 DEBUG headers:125 - http-outgoing-0 << Connection:close
+2018-02-18 22:19:46 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2018-02-18 22:19:46 DEBUG MainClientExec:104 - Connection discarded
+2018-02-18 22:19:46 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:14583][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-02-18 22:20:29 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-02-18 22:20:29 DEBUG wire:73 - http-outgoing-0 << "Content-Length:228[\r][\n]"
+2018-02-18 22:20:29 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-02-18 22:20:29 DEBUG wire:73 - http-outgoing-0 << "Connection:close[\r][\n]"
+2018-02-18 22:20:29 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-02-18 22:20:29 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"100090de308dca4b2b34781845d5f470","status":13,"value":{"message":"unknown error: Chrome failed to start: exited abnormally\n  (Driver info: chromedriver=2.10.267518,platform=Linux 4.14.18-300.fc27.x86_64 x86_64)"}}"
+2018-02-18 22:20:29 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-02-18 22:20:29 DEBUG headers:125 - http-outgoing-0 << Content-Length:228
+2018-02-18 22:20:29 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-02-18 22:20:29 DEBUG headers:125 - http-outgoing-0 << Connection:close
+2018-02-18 22:20:29 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2018-02-18 22:20:29 DEBUG MainClientExec:104 - Connection discarded
+2018-02-18 22:20:29 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:27241][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-02-19 00:07:29 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-02-19 00:07:30 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-02-19 00:07:30 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:17694][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-02-19 00:07:30 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:17694][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-02-19 00:07:30 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:17694
+2018-02-19 00:07:30 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:17694
+2018-02-19 00:07:30 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:54082<->127.0.0.1:17694
+2018-02-19 00:07:30 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-02-19 00:07:30 DEBUG MainClientExec:256 - Executing request POST /session HTTP/1.1
+2018-02-19 00:07:30 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-02-19 00:07:30 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-02-19 00:07:30 DEBUG headers:133 - http-outgoing-0 >> POST /session HTTP/1.1
+2018-02-19 00:07:30 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-02-19 00:07:30 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 688
+2018-02-19 00:07:30 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:17694
+2018-02-19 00:07:30 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-02-19 00:07:30 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-02-19 00:07:30 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 688[\r][\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:17694[\r][\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "    "chromeOptions": {[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "      "args": [[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "        "--disable-extensions",[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "        "disable-infobars"[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "      ],[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "      "extensions": [][\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "    "version": "",[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "    "platform": "ANY"[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "  },[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "      "chromeOptions": {[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "        "args": [[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "          "--disable-extensions",[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "          "disable-infobars"[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "        ],[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "        "extensions": [][\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "      },[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "      "version": "",[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "      "platform": "ANY"[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "      {[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "      }[\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2018-02-19 00:07:30 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2018-02-19 00:07:30 DEBUG wire:87 - http-outgoing-0 >> "}"
+2018-02-19 00:08:30 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-02-19 00:08:30 DEBUG wire:73 - http-outgoing-0 << "Content-Length:228[\r][\n]"
+2018-02-19 00:08:30 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-02-19 00:08:30 DEBUG wire:73 - http-outgoing-0 << "Connection:close[\r][\n]"
+2018-02-19 00:08:30 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-02-19 00:08:30 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"1709e3abc05a8c0d2e82383207cc6d2c","status":13,"value":{"message":"unknown error: Chrome failed to start: exited abnormally\n  (Driver info: chromedriver=2.10.267518,platform=Linux 4.14.18-300.fc27.x86_64 x86_64)"}}"
+2018-02-19 00:08:30 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-02-19 00:08:30 DEBUG headers:125 - http-outgoing-0 << Content-Length:228
+2018-02-19 00:08:30 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-02-19 00:08:30 DEBUG headers:125 - http-outgoing-0 << Connection:close
+2018-02-19 00:08:30 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2018-02-19 00:08:30 DEBUG MainClientExec:104 - Connection discarded
+2018-02-19 00:08:30 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:17694][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-02-19 00:45:03 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-02-19 00:45:03 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-02-19 00:45:03 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:24044][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-02-19 00:45:03 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:24044][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-02-19 00:45:03 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:24044
+2018-02-19 00:45:03 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:24044
+2018-02-19 00:45:03 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:51064<->127.0.0.1:24044
+2018-02-19 00:45:03 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-02-19 00:45:03 DEBUG MainClientExec:256 - Executing request POST /session HTTP/1.1
+2018-02-19 00:45:03 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-02-19 00:45:03 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-02-19 00:45:03 DEBUG headers:133 - http-outgoing-0 >> POST /session HTTP/1.1
+2018-02-19 00:45:03 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-02-19 00:45:03 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 688
+2018-02-19 00:45:03 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:24044
+2018-02-19 00:45:03 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-02-19 00:45:03 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-02-19 00:45:03 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 688[\r][\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:24044[\r][\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "    "chromeOptions": {[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "      "args": [[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "        "--disable-extensions",[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "        "disable-infobars"[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "      ],[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "      "extensions": [][\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "    "version": "",[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "    "platform": "ANY"[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "  },[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "      "chromeOptions": {[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "        "args": [[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "          "--disable-extensions",[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "          "disable-infobars"[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "        ],[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "        "extensions": [][\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "      },[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "      "version": "",[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "      "platform": "ANY"[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "      {[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "      }[\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2018-02-19 00:45:03 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2018-02-19 00:45:03 DEBUG wire:87 - http-outgoing-0 >> "}"
+2018-02-19 00:46:03 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-02-19 00:46:03 DEBUG wire:73 - http-outgoing-0 << "Content-Length:228[\r][\n]"
+2018-02-19 00:46:03 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-02-19 00:46:03 DEBUG wire:73 - http-outgoing-0 << "Connection:close[\r][\n]"
+2018-02-19 00:46:03 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-02-19 00:46:03 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"7ad94b9f2fd7b4943f2ae3600e15b8e9","status":13,"value":{"message":"unknown error: Chrome failed to start: exited abnormally\n  (Driver info: chromedriver=2.10.267518,platform=Linux 4.14.18-300.fc27.x86_64 x86_64)"}}"
+2018-02-19 00:46:03 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-02-19 00:46:03 DEBUG headers:125 - http-outgoing-0 << Content-Length:228
+2018-02-19 00:46:03 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-02-19 00:46:03 DEBUG headers:125 - http-outgoing-0 << Connection:close
+2018-02-19 00:46:03 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2018-02-19 00:46:03 DEBUG MainClientExec:104 - Connection discarded
+2018-02-19 00:46:03 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:24044][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-02-19 00:48:47 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-02-19 00:48:47 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-02-19 00:48:47 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:31012][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-02-19 00:48:47 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:31012][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-02-19 00:48:47 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:31012
+2018-02-19 00:48:47 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:31012
+2018-02-19 00:48:47 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:52568<->127.0.0.1:31012
+2018-02-19 00:48:47 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-02-19 00:48:47 DEBUG MainClientExec:256 - Executing request POST /session HTTP/1.1
+2018-02-19 00:48:47 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-02-19 00:48:47 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-02-19 00:48:47 DEBUG headers:133 - http-outgoing-0 >> POST /session HTTP/1.1
+2018-02-19 00:48:47 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-02-19 00:48:47 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 688
+2018-02-19 00:48:47 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:31012
+2018-02-19 00:48:47 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-02-19 00:48:47 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-02-19 00:48:47 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 688[\r][\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:31012[\r][\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "    "chromeOptions": {[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "      "args": [[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "        "--disable-extensions",[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "        "disable-infobars"[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "      ],[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "      "extensions": [][\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "    "version": "",[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "    "platform": "ANY"[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "  },[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "      "chromeOptions": {[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "        "args": [[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "          "--disable-extensions",[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "          "disable-infobars"[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "        ],[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "        "extensions": [][\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "      },[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "      "version": "",[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "      "platform": "ANY"[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "      {[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "      }[\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2018-02-19 00:48:47 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2018-02-19 00:48:47 DEBUG wire:87 - http-outgoing-0 >> "}"
+2018-02-19 00:49:47 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-02-19 00:49:47 DEBUG wire:73 - http-outgoing-0 << "Content-Length:228[\r][\n]"
+2018-02-19 00:49:47 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-02-19 00:49:47 DEBUG wire:73 - http-outgoing-0 << "Connection:close[\r][\n]"
+2018-02-19 00:49:47 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-02-19 00:49:47 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"aa913f98bba56ac70bb67316da358ec0","status":13,"value":{"message":"unknown error: Chrome failed to start: exited abnormally\n  (Driver info: chromedriver=2.10.267518,platform=Linux 4.14.18-300.fc27.x86_64 x86_64)"}}"
+2018-02-19 00:49:47 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-02-19 00:49:47 DEBUG headers:125 - http-outgoing-0 << Content-Length:228
+2018-02-19 00:49:47 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-02-19 00:49:47 DEBUG headers:125 - http-outgoing-0 << Connection:close
+2018-02-19 00:49:47 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2018-02-19 00:49:47 DEBUG MainClientExec:104 - Connection discarded
+2018-02-19 00:49:47 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:31012][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-02-19 01:09:41 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-02-19 01:09:41 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-02-19 01:09:41 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:32422][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-02-19 01:09:41 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:32422][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-02-19 01:09:41 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:32422
+2018-02-19 01:09:41 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:32422
+2018-02-19 01:09:41 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:57526<->127.0.0.1:32422
+2018-02-19 01:09:41 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-02-19 01:09:41 DEBUG MainClientExec:256 - Executing request POST /session HTTP/1.1
+2018-02-19 01:09:41 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-02-19 01:09:41 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-02-19 01:09:41 DEBUG headers:133 - http-outgoing-0 >> POST /session HTTP/1.1
+2018-02-19 01:09:41 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-02-19 01:09:41 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 688
+2018-02-19 01:09:41 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:32422
+2018-02-19 01:09:41 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-02-19 01:09:41 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-02-19 01:09:41 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 688[\r][\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:32422[\r][\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "    "chromeOptions": {[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "      "args": [[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "        "--disable-extensions",[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "        "disable-infobars"[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "      ],[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "      "extensions": [][\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "    "version": "",[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "    "platform": "ANY"[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "  },[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "      "chromeOptions": {[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "        "args": [[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "          "--disable-extensions",[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "          "disable-infobars"[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "        ],[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "        "extensions": [][\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "      },[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "      "version": "",[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "      "platform": "ANY"[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "      {[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "      }[\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2018-02-19 01:09:41 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2018-02-19 01:09:41 DEBUG wire:87 - http-outgoing-0 >> "}"
+2018-02-19 01:09:43 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-02-19 01:09:43 DEBUG wire:73 - http-outgoing-0 << "Content-Length:256[\r][\n]"
+2018-02-19 01:09:43 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-02-19 01:09:43 DEBUG wire:73 - http-outgoing-0 << "Connection:close[\r][\n]"
+2018-02-19 01:09:43 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-02-19 01:09:43 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"12a845624fec15ca8262c660ae3de27e","status":13,"value":{"message":"unknown error: unrecognized Blink revision: bf44778c9ce98ecff1128b225a165728044bbdeb\n  (Driver info: chromedriver=2.10.267518,platform=Linux 4.14.18-300.fc27.x86_64 x86_64)"}}"
+2018-02-19 01:09:43 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-02-19 01:09:43 DEBUG headers:125 - http-outgoing-0 << Content-Length:256
+2018-02-19 01:09:43 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-02-19 01:09:43 DEBUG headers:125 - http-outgoing-0 << Connection:close
+2018-02-19 01:09:43 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2018-02-19 01:09:43 DEBUG MainClientExec:104 - Connection discarded
+2018-02-19 01:09:43 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:32422][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
